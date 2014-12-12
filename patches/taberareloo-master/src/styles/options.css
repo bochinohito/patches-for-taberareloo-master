@@ -1,0 +1,225 @@
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: calc(100% - 20px);
+  margin: 10px;
+  padding: 0;
+}
+
+ul#tabs {
+  display: block;
+  width: 800px;
+  padding: 1px;
+  margin: 0px 0px 10px 0px;
+  background-color: lightgray;
+  -webkit-user-select: none;
+  user-select: none;
+}
+li.tab {
+  display: inline-block;
+  padding: 7px;
+  margin: 8px;
+  background-color: gray;
+  border-radius: 4px;
+  list-style: none inside;
+  cursor: pointer;
+}
+li.tab p {
+  display: inline;
+  color: white;
+  font-size: 90%;
+}
+li.tab:hover {
+  padding: 7px;
+  margin: 8px;
+  background-color: darkgray;
+}
+li.tab:hover:active {
+  background-color: dimgray;
+  padding: 5px;
+  margin: 10px;
+}
+li.tab.active {
+  background-color: silver;
+}
+div#container {
+  overflow: hidden;
+  width: 800px;
+  padding: 0px;
+  margin: 0px;
+  /*border-radius: 9px;*/
+  border: 1px solid gray;
+  height: calc(100% - 100px);
+}
+div#inner {
+  width: 600%;
+  height: 100%;
+  transition: margin-left 0.1s ease-out;
+}
+div.slide {
+  float: left;
+  position: relative;
+  display: inline;
+  overflow: auto;
+  width: 800px;
+  height: 100%;
+}
+div.option,
+div.item {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid silver;
+  border-radius: 4px;
+}
+div.option a,
+div.item a{
+  text-decoration: none;
+  color: gray;
+}
+div.option_line > * {
+  display: inline-block;
+  margin : 5px 10px;
+}
+tr.service:nth-of-type(odd) {
+  background-color: #F1F1F1;
+}
+tr.service:nth-of-type(even) {
+  background-color: white;
+}
+#services {
+  -webkit-user-select: none;
+  user-select: none;
+}
+p.service_text {
+  display: inline;
+}
+img.service_icon {
+  display: inline;
+  margin-top: 2px;
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+}
+div.button_container {
+  padding: 8px;
+}
+div.button {
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+}
+table.normal div.button {
+  cursor: pointer;
+}
+div.button.empty {
+  background-image: url("../skin/empty.png");
+  cursor: auto;
+}
+div.button.enabled {
+  background-image: url("../skin/enabled.png");
+}
+div.button.disabled {
+  background-image: url("../skin/disabled.png");
+}
+div.button.default {
+  background-image: url("../skin/default.png");
+}
+table.enabled {
+  cursor: url("../skin/enabled.png"), move !important;
+}
+table.disabled {
+  cursor: url("../skin/disabled.png"), move !important;
+}
+table.default {
+  cursor: url("../skin/default.png"), move !important;
+}
+label.tag_provider_set {
+  display: table-row;
+}
+label.tag_provider_set > * {
+  margin: 3px;
+}
+img.tag_provider_icon,
+img.list_icon {
+  display: inline-block;
+  margin: 3px 3px 3px 3px;
+  width: 16px;
+  height: 16px;
+}
+p.tag_provider_text {
+  display: inline-block;
+}
+div.list {
+  height: 20px;
+}
+div.list:nth-of-type(odd) {
+  background-color: #F1F1F1;
+}
+div.list:nth-of-type(even) {
+  background-color: white;
+}
+div.list > *{
+  margin-left: 3px;
+  margin-right: 3px;
+  display: inline-block;
+}
+p.list_text {
+  margin-top : 0px;
+  vertical-align: middle;
+}
+input.text_input {
+  width : 100%;
+}
+input#save {
+  width: 800px;
+  cursor: pointer;
+}
+p.userscript_title {
+  min-width: 250px;
+}
+table.option_table th {
+  background-color: #E1E1E1 !important;
+  text-align: center !important;
+}
+table.option_table tr,
+table.option_table td,
+table.option_table th {
+  padding: 5px !important;
+  margin: 0 !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-color: #bbb !important;
+}
+table.option_table td,
+table.option_table th {
+  border-style: solid !important;
+  border-color: #bbb !important;
+}
+
+#button_check_updates {
+  float: right;
+}
+table#patch_table {
+  width: 100%;
+}
+tr.patch:nth-of-type(odd) {
+  background-color: #F1F1F1;
+}
+tr.patch:nth-of-type(even) {
+  background-color: white;
+}
+div.option a.patch_name {
+  text-decoration: underline;
+  color: blue;
+}
+td.patch_enabled,
+td.patch_uninstall {
+  text-align: center;
+}
+
+#backup label {
+  display: inline-block;
+}

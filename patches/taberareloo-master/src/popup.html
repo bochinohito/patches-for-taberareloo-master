@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>QuickPostForm</title>
+<script src="third_party/MochiKit/Base.js"></script>
+<script src="third_party/MochiKit/DOM.js"></script>
+<script src="third_party/MochiKit/Style.js"></script>
+<script src="third_party/MochiKit/Signal.js"></script>
+<script src="third_party/punycode/punycode.js"></script>
+<script src="third_party/node/querystring.js"></script>
+<script src="third_party/node/url.js"></script>
+<script src="lib/utils.js"></script>
+<script src="lib/proto.js"></script>
+<script src="lib/popup.js"></script>
+<link rel="stylesheet" type="text/css" href="styles/popup.css"/>
+</head>
+<body>
+<div id="form">
+  <div id="titlebar">
+    <div id="icon_container">
+      <div class="title_type">
+        <img id="typeIcon" />
+        <p id="type"></p>
+      </div>
+      <div id="toggle_detail" class="loaded"></div>
+    </div>
+  </div>
+  <div id="edit">
+    <div id="title">
+      <p id="title_text"></p>
+      <input type="text" id="title_input" class='hide' placeholder="title" autocomplete="off">
+    </div>
+    <div id="link"></div>
+    <div id="body"></div>
+    <div id="pic"></div>
+    <div id="audio"></div>
+    <div id="tag">
+      <input type="text" id="tags" placeholder="tags" autocomplete="off"><div id="loading_icon" class="loading"></div>
+    </div>
+    <div id="suggestions">
+    </div>
+    <div id="description">
+      <textarea id="desc" placeholder="description"></textarea>
+      <p id="count"></p>
+    </div>
+  </div>
+  <div id="posters">
+  </div>
+  <div id="widgets"></div>
+  <input type="button" value="Post" id="post">
+  <pre id="message"></pre>
+</div>
+</body>
+</html>

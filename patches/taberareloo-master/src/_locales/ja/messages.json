@@ -1,0 +1,224 @@
+{
+  "label_postConfig": {
+    "message": "デフォルトのポスト先",
+    "description": "サービス設定タブ"
+  },
+  "label_post": {
+    "message": "ポスト関連",
+    "description": "ポスト関連設定タブ"
+  },
+  "label_entry": {
+    "message": "エントリ内容/他",
+    "description": "エントリ設定タブ"
+  },
+  "label_patch": {
+    "message": "パッチ"
+  },
+  "label_about": {
+    "message": "Taberarelooについて",
+    "description": "Taberarelooについてのタブ"
+  },
+  "label_tagprovider": {
+    "message": "クイックポストで使うタグの取得元"
+  },
+  "label_keyconfig": {
+    "message": "Keyconfig を使う ( チェックされているとTaberarelooによるキー監視は行われません )"
+  },
+  "label_shortcutkey": {
+    "message": "ショートカット - $1クイックポスト"
+  },
+  "label_clear": {
+    "message": "クリア"
+  },
+  "label_install": {
+    "message": "インストール"
+  },
+  "label_uninstall": {
+    "message": "アンインストール"
+  },
+  "label_tagAutoComplete": {
+    "message": "タグの自動決定"
+  },
+  "label_notificationOnPosting": {
+    "message": "ポスト時に通知を表示する"
+  },
+  "label_checkHttps": {
+    "message": "ポスト対象 URL が HTTPS の時に警告を表示する"
+  },
+  "label_postWithQueue": {
+    "message": "Tumblr - キューに入れてポストする"
+  },
+  "label_notQueueReblogPost": {
+    "message": "Reblogの場合はキューに入れない"
+  },
+  "label_alwaysShortenURL": {
+    "message": "Twitter - 常にURLを短縮する"
+  },
+  "label_clipFullPage": {
+    "message": "Evernote - ページ全体をクリップする"
+  },
+  "label_removeHatenaKeyword": {
+    "message": "Quote - はてなキーワードを除去する"
+  },
+  "label_tumblrDefaultQuote": {
+    "message": "Quote - Tumblrにプレーンテキストでポストする"
+  },
+  "label_userscripts": {
+    "message": "ユーザースクリプト"
+  },
+  "label_multipleTumblelog": {
+    "message": "複数タンブルログ"
+  },
+  "label_HatenaBlog": {
+    "message": "はてなブログ"
+  },
+  "label_enable": {
+    "message": "有効"
+  },
+  "label_get": {
+    "message": "取得"
+  },
+  "label_example": {
+    "message": "例: "
+  },
+  "label_save": {
+    "message": "保存"
+  },
+  "label_amazonAffiliateId": {
+    "message": "AmazonアフィリエイトID"
+  },
+  "label_thumbnailTemplate": {
+    "message": "Linkポストのサムネイルテンプレート"
+  },
+  "label_twitterTemplate": {
+    "message": "Twitterへの投稿のテンプレート"
+  },
+  "label_trimReblogInfo": {
+    "message": "reblog情報を除去する"
+  },
+  "label_appendContentSource": {
+    "message": "ソース情報を付加する"
+  },
+  "label_notconvertText": {
+    "message": "長文を含むTextポストをLinkポストに変換しない"
+  },
+  "label_tumblr2twitter": {
+    "message": "Tumblrへの投稿をTwitterでも共有する"
+  },
+  "label_tumblr2facebook": {
+    "message": "Tumblrへの投稿をFacebookでも共有する"
+  },
+  "label_check_updates": {
+    "message": "更新を確認"
+  },
+  "label_backup": {
+    "message": "バックアップ"
+  },
+  "label_restore": {
+    "message": "リストア"
+  },
+  "label_backup_button": {
+    "message": "Taberarelooの設定／パッチファイルのバックアップを行います : "
+  },
+  "label_backup_file": {
+    "message": "バックアップ時に保存した zip ファイル (.zip) : "
+  },
+  "label_reset": {
+    "message": "初期化"
+  },
+  "label_reset_button": {
+    "message": "Taberarelooの設定／パッチファイルを初期インストール時に戻します : "
+  },
+  "warning_https": {
+    "message": "Https $title$\n    $original$\n    は\n    $modified$\n    に変換されました。",
+    "description": "httpsのリンクが見つかった",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "original": {
+        "content": "$2"
+      },
+      "modified": {
+        "content": "$3"
+      }
+    }
+  },
+  "warning_metadata": {
+    "message": "パッチのメタデータが取得できません。メタデータのJSONが間違っている可能性があります。"
+  },
+  "all_off": {
+    "message": "全てOFF"
+  },
+  "confirm_https": {
+    "message": "httpsリンクのポストを許可しますか?"
+  },
+  "confirm_delete": {
+    "message": "このパッチを削除してもよろしいですか？"
+  },
+  "confirm_reset": {
+    "message": "全ての設定とパッチを初期化してもよろしいですか？"
+  },
+  "message_installed": {
+    "message": "$1 をインストールしました。"
+  },
+  "message_uninstalled": {
+    "message": "$1 をアンインストールしました。"
+  },
+  "message_released": {
+    "message": "新しいバージョンがリリースされています。\nここをクリックすると新しいパッチを開きます。"
+  },
+  "message_restored": {
+    "message": "設定は復元されました。\nTaberareloo を再起動します。"
+  },
+  "message_reset": {
+    "message": "設定は初期化されました。\nTaberareloo を再起動します。"
+  },
+  "error_post": {
+    "message": "ポストエラー\n$detail$\n\n元ページ: \n  $title$\n  $url$",
+    "description": "ポストに失敗した",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      },
+      "title": {
+        "content": "$2"
+      },
+      "url": {
+        "content": "$3"
+      }
+    }
+  },
+  "error_noPoster": {
+    "message": "$1 タイプのポスト先が一つも指定されていません。",
+    "description": "デフォルトのポスト先が見つからない"
+  },
+  "error_notLoggedin": {
+    "message": "$1 にログインしていません。",
+    "description": "サービスにログインしていない"
+  },
+  "error_keyConfliction": {
+    "message": "キー設定が重複しています。",
+    "description": "キーが重複して設定されている"
+  },
+  "error_reopen": {
+    "message": "ページを開きなおしますか?",
+    "description": "ページの再オープンを確認する"
+  },
+  "error_http403": {
+    "message": "指定されたURLにアクセスできません。",
+    "description": "レスポンスのステータスコードが403"
+  },
+  "error_http404": {
+    "message": "指定されたURLは見つかりません。",
+    "description": "レスポンスのステータスコードが404"
+  },
+  "error_http500": {
+    "message": "サーバーでエラーが発生しました。",
+    "description": "レスポンスのステータスコードが500"
+  },
+  "error_http503": {
+    "message": "指定されたサービスは現在利用できません。",
+    "description": "レスポンスのステータスコードが503"
+  }
+}

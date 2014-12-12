@@ -1,0 +1,112 @@
+# Taberareloo
+
+[![Build Status](https://travis-ci.org/taberareloo/taberareloo.svg?branch=master)](https://travis-ci.org/taberareloo/taberareloo)
+[![Build Status](https://drone.io/github.com/taberareloo/taberareloo/status.png)](https://drone.io/github.com/taberareloo/taberareloo/latest)
+[![devDependency Status](https://david-dm.org/taberareloo/taberareloo/dev-status.svg)](https://david-dm.org/taberareloo/taberareloo#info=devDependencies)
+[![Gitter chat](https://badges.gitter.im/taberareloo/taberareloo.png)](https://gitter.im/taberareloo/taberareloo)
+
+[![taberareloo](https://raw.github.com/taberareloo/taberareloo/master/src/skin/fork64.png)](https://github.com/taberareloo/taberareloo)
+
+## DESCRIPTION
+
+Yet Another Tombloo on Chromium
+Tombloo and Taberareloo are the Cross Post Support Tool for social bookmarks and other services.
+
+Services example:
+
++  Tumblr
++  Pinterest
++  Delicious
++  Pinboard
++  GoogleBookmarks
++  FriendFeed
++  Twitter
++  Pocket
++  Instapaper
++  Evernote
++  Gmail
++  GoogleCalendar
+
+and
+
++  HatenaBookmark
++  YahooBookmark (these are Japanese popular social bookmarking services)
+
+and
+
++  PickNaver
++  HatenaFotolife
++  Gyazo
++  4u (these are Japanese Service)
+
+and others
+
+## USAGE
+
+see [wiki page](https://github.com/taberareloo/taberareloo/wiki/)
+
+## FEATURES/PROBLEMS
+
++ post to a lot of services
+
+## DEPENDENCIES
+
++ Chromium or Google Chrome
+
+## INSTALL
+
+install at this Google chrome extensions gallery page
+
+[gallery page](https://chrome.google.com/webstore/detail/ldcnohnnlpgglecmkldelbmiokgmikno)
+
+## SCREENSHOT
+
+![screenshot](http://farm5.static.flickr.com/4030/4230713294_14aa84791f_o.png)
+
+## DEVELOPERS
+
+Taberareloo Dev Team
+
++ Constellation
++ os0x
++ YungSang
++ hitode909
++ syoichi
++ mono0x
++ iyoupapa
++ polygonplanet
++ uu59
++ tanabe
++ papaeye
+
+See [the latest data](https://github.com/taberareloo/taberareloo/graphs/contributors).
+
+Tombloo Dev Team
+
++ to
++ ku
++ mattn
++ youpy
++ Constellation
++ cxx
++ YungSang
++ zorio
++ simonetta
++ iyoupapa
+
+## LICENSE
+
+Taberareloo Code
+(The MIT License)
+Copyright (c) 2009 Constellation & Taberareloo Dev Team
+
+Tombloo Code
+(Public Domain)
+Copyright (c) to & Tombloo Dev Team
+
+Silk Icons
+(Creative Commons Attribution 2.5 License)
+Copyright (c) FAMFAMFAM
+
+Taberareloo Fork Icons
+Copyright (c) os0x

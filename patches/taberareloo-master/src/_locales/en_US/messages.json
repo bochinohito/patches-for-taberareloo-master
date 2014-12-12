@@ -1,0 +1,224 @@
+{
+  "label_postConfig": {
+    "message": "Services",
+    "description": "services tab"
+  },
+  "label_post": {
+    "message": "Post",
+    "description": "post setting tab"
+  },
+  "label_entry": {
+    "message": "Entry Contents / etc.",
+    "description": "entry setting tab"
+  },
+  "label_patch": {
+    "message": "Patches"
+  },
+  "label_about": {
+    "message": "About",
+    "description": "about tab"
+  },
+  "label_tagprovider": {
+    "message": "Tag Provider"
+  },
+  "label_keyconfig": {
+    "message": "use Keyconfig instead ( if this is checked, Taberareloo doesn't observe key input. )"
+  },
+  "label_shortcutkey": {
+    "message": "Shortcutkey - $1 Quick Post"
+  },
+  "label_clear": {
+    "message": "clear"
+  },
+  "label_install": {
+    "message": "Install"
+  },
+  "label_uninstall": {
+    "message": "Uninstall"
+  },
+  "label_tagAutoComplete": {
+    "message": "Tag Auto Complete"
+  },
+  "label_notificationOnPosting": {
+    "message": "Show notification on posting"
+  },
+  "label_checkHttps": {
+    "message": "Show the warning when the target URL is HTTPS"
+  },
+  "label_postWithQueue": {
+    "message": "Tumblr - Post with Queue"
+  },
+  "label_notQueueReblogPost": {
+    "message": "Not enqueue in case of Reblog"
+  },
+  "label_alwaysShortenURL": {
+    "message": "Twitter - Always Shorten URL"
+  },
+  "label_clipFullPage": {
+    "message": "Evernote - Clip Full Page"
+  },
+  "label_removeHatenaKeyword": {
+    "message": "Quote - Remove Hatena Keywords"
+  },
+  "label_tumblrDefaultQuote": {
+    "message": "Quote - Post Tumblr with Plain Text"
+  },
+  "label_userscripts": {
+    "message": "UserScripts"
+  },
+  "label_multipleTumblelog": {
+    "message": "Multiple Tumblelog"
+  },
+  "label_HatenaBlog": {
+    "message": "Hatena Blog"
+  },
+  "label_enable": {
+    "message": "enabled"
+  },
+  "label_get": {
+    "message": "get"
+  },
+  "label_example": {
+    "message": "e.g. "
+  },
+  "label_save": {
+    "message": "Save"
+  },
+  "label_amazonAffiliateId": {
+    "message": "Amazon affiliate ID"
+  },
+  "label_thumbnailTemplate": {
+    "message": "Link thumbnail template"
+  },
+  "label_twitterTemplate": {
+    "message": "Twitter template"
+  },
+  "label_trimReblogInfo": {
+    "message": "Trim reblog info"
+  },
+  "label_appendContentSource": {
+    "message": "Append content source info"
+  },
+  "label_notconvertText": {
+    "message": "Not convert long Text post to Link"
+  },
+  "label_tumblr2twitter": {
+    "message": "Share Tumblr posts on your Twitter"
+  },
+  "label_tumblr2facebook": {
+    "message": "Share Tumblr posts on your Facebook"
+  },
+  "label_check_updates": {
+    "message": "Check Updates"
+  },
+  "label_backup": {
+    "message": "Backup"
+  },
+  "label_restore": {
+    "message": "Restore"
+  },
+  "label_backup_button": {
+    "message": "To back up settings and patch files : "
+  },
+  "label_backup_file": {
+    "message": "The zip file which you backed up (.zip) : "
+  },
+  "label_reset": {
+    "message": "Reset"
+  },
+  "label_reset_button": {
+    "message": "To reset settings and patch files : "
+  },
+  "warning_https": {
+    "message": "Https $title$\n    $original$\n    is converted to\n    $modified$",
+    "description": "when https link has found",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "original": {
+        "content": "$2"
+      },
+      "modified": {
+        "content": "$3"
+      }
+    }
+  },
+  "warning_metadata": {
+    "message": "Could not parse a metadata JSON of the patch. The metadata may be wrong."
+  },
+  "all_off": {
+    "message": "All Off"
+  },
+  "confirm_https": {
+    "message": "Allow posting https link?"
+  },
+  "confirm_delete": {
+    "message": "Are you sure to delete this patch?"
+  },
+  "confirm_reset": {
+    "message": "Are you sure to reset all settings and patches?"
+  },
+  "message_installed": {
+    "message": "$1 has been installed."
+  },
+  "message_uninstalled": {
+    "message": "$1 has been uninstalled."
+  },
+  "message_released": {
+    "message": "A new version has been released.\nClick here to open the new patch."
+  },
+  "message_restored": {
+    "message": "Settings have been restored.\nGoing to reload Taberareloo."
+  },
+  "message_reset": {
+    "message": "Settings have been reset.\nGoing to reload Taberareloo."
+  },
+  "error_post": {
+    "message": "Post failed.\n$detail$\n\nSource page: \n  $title$\n  $url$",
+    "description": "when post failed",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      },
+      "title": {
+        "content": "$2"
+      },
+      "url": {
+        "content": "$3"
+      }
+    }
+  },
+  "error_noPoster": {
+    "message": "No selected service for $1 type post.",
+    "description": "when default poster service not found"
+  },
+  "error_notLoggedin": {
+    "message": "Not loggedin $1.",
+    "description": "when not logged in the service"
+  },
+  "error_keyConfliction": {
+    "message": "Conflict key settings.",
+    "description": "when key settings is conflicted"
+  },
+  "error_reopen": {
+    "message": "will you reopen?",
+    "description": "when confirm reopen"
+  },
+  "error_http403": {
+    "message": "Forbidden",
+    "description": "when response status is 403"
+  },
+  "error_http404": {
+    "message": "Not Found",
+    "description": "when response status is 404"
+  },
+  "error_http500": {
+    "message": "Internal Server Error",
+    "description": "when response status is 500"
+  },
+  "error_http503": {
+    "message": "Service Unavailable",
+    "description": "when response status is 503"
+  }
+}
